@@ -8,7 +8,7 @@ import ThirdwebGuideFooter from "../components/GitHubLink";
 import { Base } from "@thirdweb-dev/chains";
 
 // This is the chain your dApp will work on.
-const activeChain = BaseMainnet;
+const activeChain = Base;
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
